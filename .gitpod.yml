@@ -1,4 +1,4 @@
-image: gitpod/workspace
+image: gitpod/workspace-node
 
 tasks:
   - init: sudo apt install -y hunspell
