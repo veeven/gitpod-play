@@ -1,2 +1,4 @@
+image: debian:testing-slim
+
 tasks:
   - init: sudo apt install -y hunspell
