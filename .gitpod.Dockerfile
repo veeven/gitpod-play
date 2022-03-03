@@ -1,8 +1,4 @@
 FROM debian:testing-slim
-
-RUN DEBIAN_FRONTEND=noninteractive && sudo apt update && sudo apt install -y nuspell \
-  && sudo rm -rf /var/lib/apt/lists/* \
-  && sudo apt-get clean -y
   
 ### Gitpod user ###
 # '-l': see https://docs.docker.com/develop/develop-images/dockerfile_best-practices/#user
