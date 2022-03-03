@@ -1,4 +1,4 @@
-image: debian:testing
+image: gitpod/workspace
 
 tasks:
   - init: sudo apt install -y hunspell
